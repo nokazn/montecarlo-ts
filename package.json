@@ -1,0 +1,17 @@
+{
+  "name": "montecarlo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nokazn",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.1"
+  }
+}
