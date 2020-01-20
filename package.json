@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json",
+    "lint": "eslint src/*.ts",
+    "lint:fix": "eslint src/*.ts"
   },
   "author": "nokazn",
   "license": "MIT",
@@ -12,6 +15,11 @@
     "typescript": "^3.7.2"
   },
   "devDependencies": {
-    "tslint": "^5.20.1"
+    "@types/node": "^12.12.12",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
   }
 }
